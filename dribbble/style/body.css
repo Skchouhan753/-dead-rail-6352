@@ -1,9 +1,9 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", "Helvetica";
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", "Helvetica";
+}
 #body {
   width: 100%;
   display: flex;
@@ -12,7 +12,7 @@
 #body > div:first-child {
   width: 90%;
   /* height: 70px; */
-  border: 1px solid darkcyan;
+  /* border: 1px solid darkcyan; */
 }
 
 /* side */
@@ -20,6 +20,7 @@
   width: 5%;
   height: 200px;
   border: 1px solid rgb(184, 39, 7);
+  margin-top: 200px;
 }
 .bodyHead {
   /* border: 1px solid red; */
@@ -53,8 +54,39 @@
   color: white;
   background-color: rgb(234, 76, 137);
 }
-.bodyImg{
-   border:1px solid red;
-   width:84.5%;
-   margin: auto;
+.bodyImg {
+  /* border: 1px solid red; */
+  width: 84.5%;
+  margin: auto;
+}
+.bodyImg img{
+border-radius: 10px;
+margin-bottom: 70px;
+cursor: pointer;
+}
+.bodyImg > div {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin: auto;
+  /* margin-top: 60px; */
+  margin-bottom: 60px;
+  font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: rgb(234, 76, 137);
+    
+}
+#bodyBottom{
+    margin: auto;
+    width:80%;
+    border: 1px solid green;
+
+}
+#bodyBottom span{
+   display: flex;
+   justify-content: center;
+}
+#bodyBottom img{
+    border-radius: 50px;
 }
