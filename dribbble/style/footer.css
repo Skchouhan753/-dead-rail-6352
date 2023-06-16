@@ -19,8 +19,18 @@ footer{
     font-size: 15px;
     padding:10px;
 }
-#footer>div>img{
+#footer>div:first-child>img{
     max-width: 200px;
+    cursor: pointer;
+}
+#footer>div:first-child>div{
+    display: flex;
+    width:80%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#footer>div:first-child>div img{
+    width:20px;
     cursor: pointer;
 }
 #footer+div{
