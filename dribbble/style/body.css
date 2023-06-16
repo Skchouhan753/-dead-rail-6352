@@ -80,13 +80,84 @@ a{
 #bodyBottom{
     margin: auto;
     width:80%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
-#bodyBottom span{
+#bodyBottom span:first-child{
    display: flex;
    justify-content: center;
 }
 #bodyBottom img{
     border-radius: 50px;
+}
+hr{
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
+#bodyBottom span:last-child{
+  text-align: center;
+  line-height: 40px;
+  display: block;
+}
+#bodyBottom span:last-child > button{
+  border-radius: 8px;
+  border: none;
+  color:white;
+  width:100px;
+  height:40px;
+  background-color: rgb(234, 76, 137);
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.MoreKretya{
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.MoreKretya>div:first-child{
+  display: flex;
+  margin: auto;
+  width:80%;
+  justify-content: space-between;
+}
+.MoreKretya>div:first-child p{
+  color: red;
+  cursor: pointer;
+}
+.MoreKretya>div:first-child p:hover{
+  color: rgb(186, 88, 88);
+  cursor: pointer;
+}
+.MoreKretya>div:nth-child(2){
+  display: flex;
+  width:100%;
+  gap:30px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+/* .MoreKretya div{
+  margin: auto;
+} */
+
+.MoreKretya>div:nth-child(2) img{
+  width:250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.MoreKretya>div:nth-child(3){
+ display: flex;
+width:80%;
+margin: auto;
+justify-content: center;
+margin-bottom: 100px;
+gap:10px;
+align-items: center;
+}
+.MoreKretya>div:nth-child(3) button{
+  width:20px;
+  height:20px;
+  border: 0.3px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
