@@ -69,3 +69,15 @@ function footer(){
     footer.append(div1,div2,div3,div4,div5,div6);
 }
 // footer()
+
+let sidemenu=document.querySelector(".tooltipText6");
+let count=localStorage.getItem("likes")||0;
+sidemenu.innerText=`Likes(${count})`;
+let btn=document.querySelector("#like");
+btn.addEventListener("click",likes);
+function likes(){
+    ++count
+    localStorage.setItem("likes",count);
+    sidemenu.innerText=`Likes(${count})`;
+}
+
