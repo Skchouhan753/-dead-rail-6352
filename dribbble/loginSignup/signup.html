@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="/style/signup.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/style/signup.css" />
+  </head>
+  <body>
     <div id="container">
-        <div></div>
-        <div></div>
+      <div>
+        <img src="/data/logo pink.png" alt="" />
+        <h2>Discover the world’s top</h2>
+        <h2>Designers & Creatives.</h2>
+      </div>
+      <div>
+        <div>
+          <p>Already a member? <a href="./login.html">Sign In</a></p>
+        </div>
+        <form class="google">
+          <h2>Sign up to Dribbble</h2>
+          <div>
+            <img src="/data/google.png" alt="" />
+            <span>
+              <img class="twitter" src="/data/twitter.png" alt="" />
+            </span>
+          </div>
+          <br />
+          <hr />
+          <span
+            ><h4>Name</h4>
+            <h4>Username</h4></span
+          >
+          <span class="inptfld">
+            <input type="text" id="name" />
+            <input id="userName" type="text" />
+          </span>
+          <h4>Email</h4>
+          <input type="email" id="email" /><br /><br />
+          <h4>Password</h4>
+          <input type="password" id="password" placeholder="6+characters"/>
+            <br /><br />
+          <!-- <input type="checkbox"> -->
+          <span class="loading">
+            <input id="submit" type="submit" value="Create Account" />
+        </span>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 <script src="/script/signup.js"></script>

@@ -29,32 +29,114 @@
 }
 #container > div:last-child > div:first-child{
   height: 50px;
-  border:1px solid red;
+  /* border:1px solid red; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
+  padding: 10px;
 }
-#container > div:last-child>div:first-child>a{
+/* #container > div:last-child>div:first-child>a{
     text-decoration: none;
     cursor: pointer;
+} */
+a{
+    text-decoration: none;
+    cursor: pointer; 
 }
-
-#container > div:last-child>div:last-child img{
-    /* border: 1px solid red; */
-    /* border:1px solid red; */
-    /* width:20px;
-    height: 20px; */
+hr{
+  margin-bottom: 20px;  
 }
+/* #container > div:last-child>div:last-child img{
+    border: 1px solid red;
+    border:1px solid red;
+    width:20px;
+    height: 20px;
+} */
 .google{
     width:50%;
-    height: 200px;
-    border:1px solid red;
+    height: 500px;
+    /* border:1px solid red; */
     margin: auto;
     margin-top: 100px;
 }
 .google>div{
-   height:50px;
-    border:1px solid rgb(7, 125, 235);
-   
+   /* height:50px; */
+    /* border:1px solid rgb(7, 125, 235); */
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.google>div img{
+    cursor: pointer; 
+ }
+.google>div>span{
+    height:40px;
+    width:40px;
+     border:2px solid grey;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     margin-left: 10px;
+ }
+.twitter{
+    width:15px;
+    cursor: pointer; 
+}
+.frgtPwd{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243,243,244);
+    padding: 10px;
+    margin-top: 5px;  
+    margin-bottom: 20px;
+}
+input:hover{
+ background-color: white;
+ border:5px solid rgb(241,205,215); 
+ border-radius: 10px;
+ height: 50px;
+ width: 101%;
+}
+.inptfld{
+ display: flex;
+ width:100%;
+ justify-content: space-between;
+}
+.inptfld>input{
+    width:48%;
+}
+.google hr+span{
+    /* border:1px solid red; */
+    display: flex;
+    width:71%;
+    justify-content: space-between;
+}
+#submit{
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(234,76,137);
+    border:none;
+    color:white;
+    font-size: 15px;  
+    margin-top: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(238, 152, 176);
+}
+.loading{
+    display: flex;
+    align-items: center;
+}
+.loading img{
+    width:60px;
+    height: 60px;
 }
